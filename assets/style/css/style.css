@@ -223,6 +223,58 @@ h5 {
   color: #ffffff !important;
   transition: all 0.5s ease-out;
 }
+/**************************header***********************/
+#header {
+  overflow-x: hidden;
+}
+#header #header-container {
+  padding: 50px;
+  background: url('../../img/header.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header #header-container .text-container {
+  margin-top: 100px;
+}
+#header #header-container .text-container h1,
+#header #header-container .text-container h4 {
+  color: #1e1f1e;
+  line-height: 1.5em;
+}
+#header #header-container .text-container h1 {
+  font-family: "muse-300", Georgia, serif;
+}
+#header #header-container .text-container h4 {
+  font-family: "OpenSans", Helvetica, Arial, sans-serif;
+}
+#header #footer-container {
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-bottom: 1px solid #e6e6e6;
+}
+#header #footer-container button {
+  color: #ffffff;
+  background-color: #61c0bd;
+  font-size: 20px;
+  font-family: "muse-500", Arial, sans-serif;
+  float: right;
+  margin: 0 0 10px 10px;
+}
+#header #footer-container .event-details {
+  font-family: "muse-500", Arial, sans-serif;
+  font-size: 18px;
+  color: #565659;
+}
+#header #footer-container .event-details a {
+  font-family: "OpenSans-Semibold", Arial, sans-serif;
+  font-size: 16px;
+}
+#header #footer-container p {
+  color: #5a6175;
+  font-family: "OpenSans", Helvetica, Arial, sans-serif;
+}
 /*******************************media-query*********************************/
 @media only screen and (min-width: 300px) {
   #navbar {

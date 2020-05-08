@@ -166,6 +166,62 @@ h5{
         }
     }
 }
+/**************************header***********************/
+#header{
+    overflow-x: hidden;
+    #header-container{
+        padding: 50px;
+        background: url('../../img/header.png');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .text-container{
+            margin-top: 100px;
+            h1,h4{
+                color: #1e1f1e;
+                line-height: 1.5em;  
+            }
+            h1{
+                font-family: @muse-300-font;
+            }
+            h4{
+                font-family: @opensans-font;
+            }
+        }
+
+    }
+    #footer-container{
+        background-color: darken(@white-color, 5%);
+        padding: 30px;
+        border-bottom: 1px solid darken(@white-color,10%);
+        button{
+            color: @white-color;
+            background-color: @main-color;
+            font-size: 20px;
+            font-family: @muse-500-font;
+            float: right;
+            margin: 0 0 10px 10px;
+        }
+        .event-details{
+            font-family: @muse-500-font;
+            font-size: 18px;
+            color: @dark-grey-color;
+            a{
+                font-family: @opensans-semibold-font;
+                font-size: 16px;
+                
+            }
+        
+        }
+        p{
+            color: @light-grey-color;
+            font-family: @opensans-font;
+        }
+    }
+    
+
+}
 /*******************************media-query*********************************/
 @media only screen and (min-width: 300px) {
     #navbar{
