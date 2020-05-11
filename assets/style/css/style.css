@@ -300,6 +300,45 @@ h5 {
 #get-involved .container .row .col-md-4 a {
   margin-top: 10px;
 }
+/********************mission***********************************************/
+#mission {
+  background-color: #565659;
+  padding: 50px 0px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+#mission .container h3 {
+  font-family: "muse-500", Arial, sans-serif;
+}
+#mission .container h5 {
+  font-family: "OpenSans", Helvetica, Arial, sans-serif;
+}
+#mission .container .row .col-md-4 .card {
+  border: none;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+#mission .container .row .col-md-4 .card .icon-container {
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 8px solid #ffffff;
+  background: #61c0bd;
+  margin-top: -45px;
+}
+#mission .container .row .col-md-4 .card .icon-container img {
+  padding: 16px;
+  width: 75px;
+  height: 70px;
+}
+#mission .container .row .col-md-4 .card .card-body .card-title {
+  color: #61c0bd;
+  margin-bottom: 15px;
+  font-family: "muse-300", Georgia, serif;
+}
+#mission .container .row .col-md-4 .card .card-body .card-text {
+  font-family: "OpenSans", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
 /*******************************media-query*********************************/
 @media only screen and (min-width: 300px) {
   #navbar {
