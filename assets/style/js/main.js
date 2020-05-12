@@ -18,4 +18,29 @@ $(document).ready(function(){
         }
 
     });
+    /**************members******************* */
+    $('#members-slider').owlCarousel({
+        margin: 25,
+        smartSpeed: 1000,
+        nav: false,
+        dots:true,
+        dotsEach: true,
+        loop:true,
+        autoplay:true,
+        mouseDrag:true,
+        touchDrag:true,
+        responsive:{
+            0:{
+                items:1
+
+            },
+            600:{
+                items:3
+
+            },
+            1000:{
+                items:5
+            }
+        }
+    });
 });

@@ -257,7 +257,7 @@ h5{
 }
 /********************mission***********************************************/
 #mission{
-    background-color:#565659;
+    background-color: darken(@light-grey-color,10%);
     padding: 50px 0px;
     border-top: 1px solid darken(@white-color,10%);
     border-bottom: 1px solid darken(@white-color,10%);
@@ -301,6 +301,29 @@ h5{
                         }
                     }
                 }
+            }
+        }
+    }
+}
+/******************members*************************/
+#members{
+    padding: 50px 50px 0 50px;
+    .container{
+        h3{
+            font-family: @muse-500-font;
+            margin-bottom: 60px;
+
+        }
+        #members-slider{
+            img{
+                height: 100px;
+                width: 120px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            img:hover{
+                transform: scale(1.1);
+                transition: all 0.5s ease-in-out;
             }
         }
     }
