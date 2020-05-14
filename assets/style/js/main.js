@@ -44,7 +44,7 @@ $(document).ready(function(){
         }
     });
     $('#event-slider').owlCarousel({
-        margin: 25,
+        margin: 50,
         nav: false,
         dots:true,
         dotsEach: true,
