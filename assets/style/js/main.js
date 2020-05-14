@@ -44,7 +44,7 @@ $(document).ready(function(){
         }
     });
     $('#event-slider').owlCarousel({
-        margin: 25,
+        margin: 50,
         nav: false,
         dots:true,
         dotsEach: true,
@@ -57,11 +57,11 @@ $(document).ready(function(){
 
             },
             600:{
-                items:3
+                items:1
 
             },
             1000:{
-                items:5
+                items:1
             }
         }
         
