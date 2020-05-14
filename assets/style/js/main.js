@@ -44,13 +44,26 @@ $(document).ready(function(){
         }
     });
     $('#event-slider').owlCarousel({
-        margin: 10,
+        margin: 25,
         nav: false,
         dots:true,
         dotsEach: true,
         loop:false,
         mouseDrag:true,
         touchDrag:true,
+        responsive:{
+            0:{
+                items:1
+
+            },
+            600:{
+                items:3
+
+            },
+            1000:{
+                items:5
+            }
+        }
         
     });
 });

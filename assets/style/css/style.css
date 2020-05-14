@@ -363,14 +363,14 @@ h5 {
   font-family: "muse-500", Arial, sans-serif;
 }
 #event .container .row {
-  margin: 20px;
+  margin: 50px;
 }
 #event .container .row .col-md-3 {
-  margin: 20px;
+  margin: 50px;
 }
 #event .container .row .col-md-3 .card {
-  height: 400px;
-  width: 200px;
+  height: 350px;
+  width: 50px;
   margin-bottom: 10px;
 }
 #event .container .row .col-md-3 .card a img {
@@ -381,7 +381,7 @@ h5 {
 }
 #event .container .row .col-md-3 .card a img:hover {
   opacity: 1;
-  transition: all ease-in-out;
+  transition: all 0.7 ease-in-out;
 }
 #event .container .row .col-md-3 .card .card-text {
   line-height: 1.3;
