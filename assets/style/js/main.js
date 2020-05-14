@@ -43,4 +43,14 @@ $(document).ready(function(){
             }
         }
     });
+    $('#event-slider').owlCarousel({
+        margin: 10,
+        nav: false,
+        dots:true,
+        dotsEach: true,
+        loop:false,
+        mouseDrag:true,
+        touchDrag:true,
+        
+    });
 });
