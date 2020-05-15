@@ -407,7 +407,29 @@ h6 {
 }
 #follow .container img:hover {
   transform: scale(1.1);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in;
+}
+/*******************************footer************************************/
+footer {
+  padding: 2px;
+  background-color: #3a3a3b;
+}
+footer .container-fluid .college {
+  margin-bottom: -50px;
+}
+footer .container-fluid .college a {
+  color: #ffffff;
+  margin-left: 20px;
+}
+footer .container-fluid .college a img {
+  height: 50px;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+footer .container-fluid .design p {
+  color: #efedf8;
+  font-size: 15px;
 }
 /*******************************media-query*********************************/
 @media only screen and (min-width: 300px) {
