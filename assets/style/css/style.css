@@ -442,3 +442,12 @@ footer .container-fluid .design p {
     background: #ffffff;
   }
 }
+@media only screen and (max-width: 414px) {
+  #header #footer-container p {
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+  #get-involved .container .row .col-md-4 a {
+    margin-bottom: 30px;
+  }
+}
